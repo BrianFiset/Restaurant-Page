@@ -130,6 +130,8 @@ body {
     height: 100%;
     width: 100%;
     background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 1rem;
 }
 
 .title {
@@ -180,3 +182,33 @@ body {
 .item7 > .image {
     background-image: url(./images/menu-items/peanutbutter.jpg);
 }
+
+/* Contact Us Page */
+
+.extra {
+ display: grid;
+}
+
+.container1 {
+    padding: 4rem;
+    width: 30%;
+    margin-top: 10%;
+    place-self: center;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    border-radius: 2rem;
+    border: 0.5rem solid black;
+}
+
+.phone-number, .directions {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+.phone-number1, .directions1 {
+    font-size: 1.5rem;
+}
+
